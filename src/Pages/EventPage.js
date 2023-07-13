@@ -67,7 +67,7 @@ const EventPage = () => {
 				<BiArrowBack size={30} />
 			</Link>
 			<div className="flex flex-col md:flex-row gap-4 p-4 px-6">
-				<div className="w-[50%] flex flex-col gap-3">
+				<div className=" md:w-[50%] flex flex-col gap-3">
 					<div className="w-full">
 						<p className="text-3xl font-bold">Marketing Seminar</p>
 						<p className="text-xl font-bold">Hosted By:</p>
@@ -103,7 +103,7 @@ const EventPage = () => {
 						</div>
 					</div>
 				</div>
-				<div className="w-[50%] flex flex-col gap-4 p-6">
+				<div className="md:w-[50%] flex flex-col gap-4 p-6">
 					<div className="bg-white p-3  ">
 						<div className="flex items-center gap-2">
 							<BiTimeFive size={20} />
